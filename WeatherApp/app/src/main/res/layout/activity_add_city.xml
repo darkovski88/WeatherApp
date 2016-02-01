@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/input_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/city_hint"
+
+            android:padding="10dp"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/add_city_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:text="@string/add_city" />
+
+</RelativeLayout>
